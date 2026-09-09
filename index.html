@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the official SHREE Telegram channel for tips, discussions, and exclusive updates.">
+    <title>Join SHREE on Telegram</title>
+
+    <!-- ========================================== -->
+    <!-- ADD YOUR META PIXEL & TRACKING CODES HERE  -->
+    <!-- ========================================== -->
+    
+    <!-- End Meta Pixel Code Placeholder -->
+
+    <style>
+        /* Base & Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseLogo {
+            0% { transform: scale(1); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+            50% { transform: scale(1.03); box-shadow: 0 15px 30px rgba(0, 136, 204, 0.2); }
+            100% { transform: scale(1); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        }
+
+        @keyframes pulseBtn {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+
+        /* Main Container */
+        .main-wrapper {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 20px;
+        }
+
+        .content-card {
+            background: #ffffff;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            padding: 40px 30px;
+            text-align: center;
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        /* Logo Section */
+        .logo-container {
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            max-width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            animation: pulseLogo 3s infinite ease-in-out;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 2.2rem;
+            color: #111111;
+            font-weight: 800;
+            margin-bottom: 25px;
+            letter-spacing: -0.5px;
+        }
+
+        /* Value Proposition / Bullet Points */
+        .value-section {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 25px 20px;
+            margin-bottom: 30px;
+            border: 1px solid #edf2f7;
+        }
+
+        .benefits-list {
+            list-style: none;
+            max-width: 450px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .benefits-list li {
+            margin-bottom: 18px;
+            font-size: 1.1rem;
+            color: #333333;
+            display: flex;
+            align-items: flex-start;
+            line-height: 1.4;
+        }
+
+        .benefits-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .emoji-icon {
+            font-size: 1.3rem;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        /* CTA Button */
+        .cta-container {
+            margin-top: 10px;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0088cc;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 16px 40px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(0, 136, 204, 0.35);
+            animation: pulseBtn 2.5s infinite ease-in-out;
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .cta-button:hover {
+            background-color: #0077b3;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(0, 136, 204, 0.45);
+        }
+
+        .cta-button svg {
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ffffff;
+            border-top: 1px solid #eaedf1;
+            padding: 25px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666666;
+        }
+
+        .footer-links {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #666666;
+            text-decoration: none;
+            margin: 0 12px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #0088cc;
+            text-decoration: underline;
+        }
+
+        .meta-disclaimer {
+            margin-top: 12px;
+            font-size: 0.75rem;
+            color: #999999;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.4;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .content-card {
+                padding: 35px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .benefits-list li {
+                font-size: 1.05rem;
+            }
+            .cta-button {
+                font-size: 1.1rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main class="main-wrapper">
+        <div class="content-card">
+            
+            <div class="logo-container">
+                <img src="https://i.ibb.co/XxVVdQZv/Whats-App-Image-2026-09-09-at-1-45-48-PM.jpg" alt="SHREE Logo">
+            </div>
+
+            <h1>SHREE</h1>
+
+            <div class="value-section">
+                <ul class="benefits-list">
+                    <li>
+                        <span class="emoji-icon">🚄</span>
+                        <span><strong>Free joining.</strong></span>
+                    </li>
+                    <li>
+                        <span class="emoji-icon">💬</span>
+                        <span>Join our community for tips and discussions 🌟</span>
+                    </li>
+                    <li>
+                        <span class="emoji-icon">🚀</span>
+                        <span>Get fast, exclusive updates and premium insights directly.</span>
+                    </li>
+                    <li>
+                        <span class="emoji-icon">🔔</span>
+                        <span><strong>Subscribe now !</strong></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cta-container">
+                <a href="https://t.me/+MN3-QOr83fM2MmY1" class="cta-button" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.94z"/>
+                    </svg>
+                    Join Our Telegram Channel
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#privacy-policy">Privacy Policy</a>
+            <a href="#terms-of-service">Terms of Service</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <p>&copy; <span id="currentYear"></span> SHREE. All rights reserved.</p>
+        <p class="meta-disclaimer">
+            This site is not a part of the Facebook website or Meta Platforms, Inc. Additionally, this site is NOT endorsed by Meta in any way. FACEBOOK is a trademark of META PLATFORMS, INC.
+        </p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
